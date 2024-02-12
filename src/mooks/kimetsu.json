@@ -1,0 +1,49 @@
+{
+	"charactersKimetsu": [
+		{
+			"name": "Rengoku Kyojuro",
+			"id": 1,
+			"image": "https://depor.com/resizer/UkTWWA3i6JACiBFylvm6M0wOi9Q=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/BWAEOKIBBFDOHEDFWDYAL63DTI.jpg"
+		},
+		{
+			"name": "Iguro Obanai",
+			"id": 2,
+			"image": "https://i.pinimg.com/736x/a9/92/ae/a992ae4400e2be54aa4001c487310cff.jpg"
+		},
+		{
+			"name": "Tokito Muichiro",
+			"id": 3,
+			"image": "https://elcomercio.pe/resizer/mt_wzpuTCZ-BWD-z1YY5cPg1IbU=/1200x1200/smart/filters:format(jpeg):quality(90)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/3WZAINEPSZBFNN3FO5RT474U5E.jpg"
+		},
+		{
+			"name": "Shinazugawa Sanemi",
+			"id": 4,
+			"image": "https://preview.redd.it/whats-your-opinion-about-sanemi-v0-n1udop6mlgib1.jpg?auto=webp&s=c2d2a5fb045392f8cb5a4820edb517f4f5a255f2"
+		},
+		{
+			"name": "Tomioka Giyu",
+			"id": 5,
+			"image": "https://pm1.aminoapps.com/7392/2e8d758dc8c5f0aea0385e4014ba47a487e1b668r1-558-558v2_uhq.jpg"
+		},
+		{
+			"name": "Kocho Shinobu",
+			"id": 6,
+			"image": "https://laverdadnoticias.com/__export/1687457617231/sites/laverdad/img/2023/06/22/shinobu_kocho_hecha_in_ia.jpg_537113611.jpg"
+		},
+		{
+			"name": "Kanroji Mitsuri",
+			"id": 7,
+			"image": "https://www.fayerwayer.com/resizer/IVWIzC_S3vWzEZ_qrGxE4jMyKlI=/1024x1024/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/UCZRIMKZA5DJ3KSTTWR7EZKULY.webp"
+		},
+		{
+			"name": "Himejima Gyomei",
+			"id": 8,
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbI2aKOtpMq84_uA3SR2tjqWJiDc4jfM2U2w&usqp=CAU"
+		},
+		{
+			"name": "Uzui Tengen",
+			"id": 9,
+			"image": "https://www.geekmi.news/__export/1686516496996/sites/debate/img/2023/06/11/tengen-uzui.jpg_423682103.jpg"
+		}
+	]
+}
