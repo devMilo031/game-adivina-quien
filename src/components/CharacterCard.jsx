@@ -11,7 +11,7 @@ export function CharacterCard({ characters }) {
     return (
         <div className="wi-character-card-container">
             {
-                viewLap === 'none' ? <div className="wi-character-card-none" onClick={handleLap}><img src="../public/logo.png" alt="logo.png" /></div>
+                viewLap === 'none' ? <div className="wi-character-card none" onClick={handleLap}><img src="../public/logo.png" alt="logo.png" /></div>
                     : <div className="wi-character-card" onClick={handleLap}>
                         <p>{characters[lap].name}</p>
                         <img src={characters[lap].image} alt={characters[lap].name} />

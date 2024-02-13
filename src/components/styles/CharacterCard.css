@@ -4,16 +4,43 @@
     max-width: 150px;
     width: 100%;
     height: 200px;
-    border: 2px solid #fff;
-    object-fit: cover;
+    border: 2px solid #030303;
+    
+    border-radius: 10px;
+    box-shadow: 5px 2px 10px 1px #000;
+    margin-bottom: 20px;
+    /*animation: rotar2 0.7s linear;*/
 }
 
-.wi-character-card-none {
-    max-width: 150px;
-    width: 200px;
-    height: 200px;
-    display: flex;
+.wi-character-card.none {
     align-items: center;
     justify-content: center;
-    border: 2px solid #fff;
+    border: 2px solid #030303;
+    /*animation: rotar 0.7s linear;*/
+    /*transition: all 0.5s ease;*/
 }
+.wi-character-card img {
+    display: flex;
+    bottom: -100px;
+    border-radius: 10px;    
+}
+.wi-character-card.none img {
+    max-width: 100px;
+}
+
+/*
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes rotar2{
+    from{
+        transform: rotateY(360deg);
+    }to{
+        transform: rotateY(180deg);
+    }
+}*/
