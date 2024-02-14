@@ -4,23 +4,18 @@ import './styles/Board.css'
 
 
 
-export function Board({ cards }) {
+export function GameBoard({ cards, anime }) {
+    const [board, setBoard] = useState(Array(10).fill(0))
 
-    const [board, setBoard] = useState(Array(10))
-
-    console.log(board)
     return (
-        <div className="wi-board">
-        
-            <CharacterCard characters={cards} />
-            <CharacterCard characters={cards} />
-            <CharacterCard characters={cards} />
-            <CharacterCard characters={cards} />
-            <CharacterCard characters={cards} />
-            <CharacterCard characters={cards} />
-            <CharacterCard characters={cards} />
-            <CharacterCard characters={cards} />
-            <CharacterCard characters={cards} />
+        <div className="contanainer-wi-board">
+            <div className="wi-board">
+                {
+                    board.map(() => (
+                        <CharacterCard characters={cards} anime={anime} />
+                    ))
+                }
+            </div>
         </div>
     )
 }

@@ -1,5 +1,12 @@
-.wi-board{
-    max-width: 500px;
+.contanainer-wi-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.wi-board {
+    gap: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }

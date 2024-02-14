@@ -1,8 +1,27 @@
 header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 20px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1.5fr 0.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "Image Image"
+    "Title Name"; 
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+}
+
+header img {
+    grid-area: Image;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 5px 2px 15px 1px #000;
+    justify-self: center;
+}
+
+.titleHeader {
+    grid-area: Title;
 }
 .nameHeader{
-    text-decoration: underline;
+    grid-area: Name;
 }
