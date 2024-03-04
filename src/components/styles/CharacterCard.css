@@ -17,6 +17,7 @@
     height: 100%;
     border-radius: 10px;    
     margin: 0;
+    transition: all 0.5s ease;
 }
 .wi-character-card.none img {
     transform: scale(65%);

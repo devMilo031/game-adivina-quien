@@ -9,8 +9,8 @@ function App() {
   return (
     <main>
       <Header name={'Hanna'} />
-      <GameBoard cards={charactersKimetsu} anime={'kimetsu'}/>
-      <Footer/>
+      <GameBoard cards={charactersOnePiece} anime={'one-piece'} />
+      <Footer />
     </main>
   )
 }
